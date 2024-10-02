@@ -16,6 +16,9 @@ O número do nível do jogo é exibido no canto inferior esquerdo da tela e atua
 
 O jogo é um jogo de plataforma desafiador que exige que o jogador navegue por uma série de níveis, evitando obstáculos e coletando itens.
 
+## EXECUTANDO O EXECUTAVEL:
+- O arquivo `./CODIGO/NinjaFrog.exe` é um executável que está disponível apenas para `Windows X64`. Para executá-lo, basta dar dois cliques. 
+
 ## IMPORTANDO PARA O GODOT ENGINE:
 ### MÉTODO 1: IMPORTAR VIA PACOTE DE RECURSOS (.tres/.res):
    - No Godot, vá para `Importar` > `Importar Pacote de Recursos`.
