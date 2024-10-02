@@ -18,11 +18,6 @@ O jogo é um jogo de plataforma desafiador que exige que o jogador navegue por u
 
 ## IMPORTANDO PARA O GODOT ENGINE:
 ### MÉTODO 1: IMPORTAR VIA PACOTE DE RECURSOS (.tres/.res):
-1. **Verificar o Código e Assets:**
-   - Verifique se o repositório GitHub contém um arquivo `.tres` ou `.res`. Se sim, você pode importar diretamente para o Godot.
-   - Se o repositório não possui esses arquivos, você precisará copiar o código e os assets manualmente.
-
-2. **Importar o Pacote de Recursos:**
    - No Godot, vá para `Importar` > `Importar Pacote de Recursos`.
    - Navegue até o arquivo `.tres` ou `.res` que você baixou e selecione-o.
    - Clique em `Abrir` para adicionar o conteúdo ao seu projeto.
@@ -30,7 +25,7 @@ O jogo é um jogo de plataforma desafiador que exige que o jogador navegue por u
 ### MÉTODO 2: COPIAR E COLAR MANUALMENTE:
 1. **Copiar o Código e Assets:**
    - Extraia o conteúdo do repositório GitHub (se ainda não o fez) em uma pasta no seu computador.
-   - Navegue até a pasta do projeto Godot (normalmente localizada na raiz do diretório do projeto Godot).
+   - Navegue até a pasta do projeto Godot (Em `./CODIGO`).
 
 2. **Adicionar o Conteúdo ao Projeto:**
    - Copie a pasta contendo o código e assets do repositório GitHub.
@@ -38,15 +33,12 @@ O jogo é um jogo de plataforma desafiador que exige que o jogador navegue por u
 
 ### CONFIGURAR O PROJETO NO GODOT:
 1. **Abrir a Cena Principal:**
-   - No painel `FileSystem`, vá para a pasta onde o código e assets foram importados. Procure por uma cena principal, normalmente chamada `Main.tscn`, `Game.tscn`, ou algo semelhante.
+   - No painel `FileSystem`, vá para a pasta onde o código e assets foram importados. Procure por uma cena principal, em `./CODIGO/Scenes/startScreen.tscn`.
    - Clique duas vezes na cena para abri-la.
 
 2. **Verificar e Ajustar Configurações:**
    - Certifique-se de que todos os scripts, nós (nodes) e outros assets foram importados corretamente.
    - Se houver scripts que precisam de referências, você pode precisar arrastar e soltar esses objetos no `Inspector` para configurar as referências corretamente.
-
-3. **Adicionar Configurações Adicionais:**
-   - Se o código exigir configurações específicas ou componentes adicionais, siga as instruções fornecidas no repositório GitHub. Verifique o README.md ou qualquer documentação que venha com o código.
 
 ## CREDITOS:
 - [PROJETO CRIADO PARA O CURSO DE GODOT](https://github.com/VILHALVA/CURSO-DE-GODOT)
